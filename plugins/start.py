@@ -91,8 +91,8 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("⚜️ Join Group", url="https://t.me/Malayalam_New_Movie"),
-                    InlineKeyboardButton("Join Group ⚜️", url="https://t.me/Malayalam_New_Movie")
+                    InlineKeyboardButton("⚜️ Join Channel", url="https://t.me/joinchat/y7r_YFF9WTM0YTE1"),
+                    InlineKeyboardButton("Join Group ⚜️", url="https://t.me/joinchat/KBCxii_zxLJhMzk9")
                 ],    
                 [
                     InlineKeyboardButton("Close 🔒", callback_data = "close")
